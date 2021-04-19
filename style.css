@@ -1,11 +1,7 @@
 *{
     margin: 0;
-    padding: 0;
-
-	 
+    padding: 0;	 
 }
-
-
 
 h1{
     text-align: center;
@@ -44,14 +40,14 @@ form{
 	padding:16px;
 	border-radius:10px;
 	margin:auto;
-	background-color:#DCDCDC;
+	background-color:#EBEDEF;
 }
 
 form label{
 	width:92px;
 	font-weight:bold;
 	display:inline-block;
-    background-color:#DCDCDC;
+    background-color:#EBEDEF;
 }
 
 form input[type="text"],
@@ -99,7 +95,7 @@ button{
 }
 
 .formularioHome {
-    background-color: #DCDCDC;
+    background-color: #EBEDEF;
     max-width: 550px;
     width: 100%;
     padding: 35px;
@@ -107,7 +103,7 @@ button{
 	margin-top: 125px;
 }
 #campo-cantidad{
-	border: 1px solid #DCDCDC;
+	border: 1px solid #EBEDEF;
 	padding: 0px;
 	font-size: 16px;
 	line-height: 1.5;
@@ -142,7 +138,8 @@ button{
 	background-color:#DCDCDC;
 	color:black;
 	display:inline-block;
-	cursor:pointer
+	cursor:pointer;
+	margin-top: 10px;
 }
 #contenedor-resultado{
 	text-align:center;
@@ -175,7 +172,7 @@ button{
 	margin-top: 45px;
 	margin-left: 150px;
 	margin-bottom: 60px;
-	background-color: #DCDCDC;
+	background-color: #EBEDEF;
 	
 }
 .foot{
