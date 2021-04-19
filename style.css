@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+
+	 
+}
+
+
+
+h1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.resultado{
+	
+	text-align: center;
+	margin: -18px;
+    padding: 10px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 26px;
+}
+.use{
+    font-size: 40px;
+    border:2px solid #000;
+
+    
+}
+.pres{  
+    font-size: 40px;
+    border:2px solid #000;
+}
+.cj{ 
+    font-size: 40px;
+    border:2px solid #000;
+}
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#DCDCDC;
+}
+
+form label{
+	width:92px;
+	font-weight:bold;
+	display:inline-block;
+    background-color:#DCDCDC;
+}
+
+form input[type="text"],
+form input[type="number"]{
+	width:265px;
+	padding:3px 10px;
+	border:1px solid black;
+	border-radius:3px;
+	background-color:#DCDCDC;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="button"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color: black;
+	background-color: #DCDCDC;
+}
+.tab{
+	margin-top: 25px;
+
+}
+button{
+    width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color: black;
+	background-color: #DCDCDC;
+}
+.dolar{
+	position: absolute;
+  	top: 70px;
+  	right: 16px;
+	font-size: 12px;
+	border: 2px solid black;
+	background-color: #DCDCDC;
+}
+
+.formularioHome {
+    background-color: #DCDCDC;
+    max-width: 550px;
+    width: 100%;
+    padding: 35px;
+    border-radius: 15px;
+	margin-top: 125px;
+}
+#campo-cantidad{
+	border: 1px solid #DCDCDC;
+	padding: 0px;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #495057;
+	border-radius: 4px;
+	width:100%;
+}
+
+#origen{
+	border: 1px solid #DCDCDC;
+	padding: 6px 12px;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #495057;
+	border-radius: 4px;
+	width:100%
+}
+#destino{
+	border: 1px solid #DCDCDC;
+	padding: 6px 12px;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #495057;
+	border-radius: 4px;
+	width:100%
+}
+#btn-calcular-divisa{
+	line-height:36px;
+	font-size:18px;
+	text-align:center;
+	width:200px;
+	background-color:#DCDCDC;
+	color:black;
+	display:inline-block;
+	cursor:pointer
+}
+#contenedor-resultado{
+	text-align:center;
+	font-size: 26px;
+	color: black;
+	font-weight: 700;
+	line-height: 31px;
+	margin-top:20px;
+}  
+
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+	
+}
+
+.tx1, .tx2{
+	width: 1050px;
+	height: 162px;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 45px;
+	margin-left: 150px;
+	margin-bottom: 60px;
+	background-color: #DCDCDC;
+	
+}
+.foot{
+	display: flex;
+	justify-content: space-around;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	width:100%;
+	background:#DCDCDC;
+ }
+#btn-calcular-divisa{
+	background-color: #DCDCDC;
+}
+
+.navbar{
+	background-color: #DCDCDC;
+}
+
